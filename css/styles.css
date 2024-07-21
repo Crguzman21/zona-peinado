@@ -1,5 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kranky&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.font-h {
+    font-family: "Kranky", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.encabezado {
+    background-image: url("../assets/img/encabezado.jpg") ;
+    height: 11.6875rem;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 15.625rem;
+    background-color: #D9D9D9;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    margin-right: 3.125rem;
 }
