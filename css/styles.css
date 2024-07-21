@@ -36,6 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: .625rem;
 }
 
 .navbar {
@@ -43,6 +44,7 @@
     gap: 15.625rem;
     background-color: #D9D9D9;
     list-style: none;
+    margin: .625rem;
 }
 
 .navbar a{
@@ -51,6 +53,50 @@
     font-size: 2rem;
     margin-right: 3.125rem;
 }
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Kranky", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin: 1.25rem;
+    font-size: 3.125rem;
+}
+
+.orden-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-1 {
+    width: 34.5rem;
+    height: 19.9375rem;
+    margin: .625rem;
+}
+.img-2 {
+    width: 23.125rem;
+    height: 22.4375rem;
+    margin: .625rem;
+}
+.img-3 {
+    width: 22.25rem;
+    height: 33.4375rem;
+    margin: .625rem;
+}
+
+.producto img {
+    width: 38.375rem;
+    height: 33.4375rem;
+    margin: .625rem 8.75rem;
+}
+
+p{
+    font-size: 2rem;
+    margin: .625rem;
+}
+
 
 .pie-pagina {
     background-color: #D9D9D9;
@@ -61,6 +107,7 @@
     height: 7.9375rem;
     font-size: 2rem;
 }
+
 
 .pie-pagina img {
     height: 5rem;
