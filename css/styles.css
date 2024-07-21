@@ -13,6 +13,19 @@
     font-weight: 600;
     font-style: italic;
 }
+
+.font-m{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.font-f{
+    font-family: "Kranky", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
 .encabezado {
     background-image: url("../assets/img/encabezado.jpg") ;
     height: 11.6875rem;
@@ -38,3 +51,30 @@
     font-size: 2rem;
     margin-right: 3.125rem;
 }
+
+.pie-pagina {
+    background-color: #D9D9D9;
+    padding: 1.25rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.25rem;
+    height: 7.9375rem;
+    font-size: 2rem;
+}
+
+.pie-pagina img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.pie-pagina a {
+    font-size: 2.5rem;
+    margin-left: 10;
+    margin: 1.25rem;
+}
+.orden-redes {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
