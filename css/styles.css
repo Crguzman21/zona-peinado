@@ -129,6 +129,11 @@ p{
     text-align: justify;
 }
 
+.peinados p{
+    text-align: justify;
+    margin: 1.875rem;
+}
+
 .img-4{
     width: 25rem;
     height: 21.875rem;
@@ -173,22 +178,17 @@ p{
 }
 
 .img-6 {
-    width: 45.4375rem;
-    height: 74.5rem;
+    width: 18.75rem;
+    height: 25rem;
     padding: .625rem;
 }
 
 .img-7 {
-    width: 45.4375rem;
-    height: 47rem;
+    width: 25rem;
+    height: 18.75rem;
     padding: .625rem;
 }
 
-/* .contenedor-cards {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: rap;
-} */
 .card {
     margin: .625rem;
     width: 21.875rem;
@@ -208,3 +208,15 @@ p{
     height: 100%;
     object-fit: contain;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+
+
+
