@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 .font-h {
@@ -41,12 +42,13 @@
 
 .navbar {
     display: flex;
-    gap: 15.625rem;
+    gap: 12.5rem;
     background-color: #D9D9D9;
     list-style: none;
     margin: .625rem;
     border-radius: .625rem;
     box-shadow: .625rem .625rem 1.25rem black;
+    height: 70px;
 }
 
 .navbar a{
@@ -88,7 +90,15 @@ h2 {
     margin: .625rem;
 }
 
+.damas{
+    display: flex;
+    flex-direction: row;
+}
+
 .producto img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 38.375rem;
     height: 33.4375rem;
     margin: .625rem 8.75rem;
@@ -275,4 +285,83 @@ p{
     margin: 10px 10px;
     cursor: pointer;
 }
+
+
+@media (max-width:1024px){          
+
+}
+
+
+@media (max-width:768px){               /* Medida para 1024px que es medida de tablet*/
+
+    .encabezado{
+        width: 100%;
+        margin: 0;
+    }
+    
+    .navbar{
+        margin: .625rem 0;
+        gap: 1px;
+        width: 100%;
+        font-size: 16px;
+        height: 9.375rem;
+        align-items: center;
+    }
+
+    h2{
+        font-size: 2rem ;
+    }
+
+    .orden-div{
+        margin: .625rem 0;
+        display: flex;
+    }
+
+    .destacados{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .orden-div p{
+        font-size: 1.5rem;
+    }
+
+    .damas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .producto img{
+        width: 45%;
+        margin: 10px;        
+    }
+
+    .pie-pagina{
+        gap: .625rem;
+    }
+
+    .pie-pagina p{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:320px){
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        height: 9.375rem;
+        gap: .625rem;
+    }
+
+    
+
+    .navbar a{
+        font-size: .9375rem;
+    }
+
+}
+
+
 
