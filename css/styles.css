@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .font-h {
@@ -232,6 +232,19 @@ p{
     grid-template-columns: repeat(3,1fr);
 }
 
+button{
+    background-color: whitesmoke;
+    border-radius: .625rem;
+    color: black;
+    padding: .625rem .625rem;
+    text-align: center;
+    font-size: .75rem;
+    font-family: "Poppins" , sans-serif;
+    font-style: italic;
+    margin: .3125rem .3125rem;
+    cursor: pointer;
+}
+
 .form{
     background-color: lightblue;
     width: 98%;
@@ -371,6 +384,12 @@ p{
         margin-right: 3.125rem;
     }
 
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+
 
 }
 
@@ -426,6 +445,15 @@ p{
 
     .pie-pagina p{
         font-size: 1.5rem;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .card{
+        margin: .9375rem .9375rem;
     }
 
 }
@@ -527,8 +555,16 @@ p{
         margin: .625rem 9.375rem;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }    
     
-    
+    .card{
+        margin: 3.125rem .625rem;
+        height: 80%;
+        width: 90%;
+    }
 
 }
 
