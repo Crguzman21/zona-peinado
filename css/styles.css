@@ -167,6 +167,7 @@ p{
     list-style: none;
 }
 
+
 .icons ul {
     display: flex;
     list-style: none;
@@ -186,7 +187,8 @@ p{
     justify-content: center;
     align-items:center ;
     margin: .625rem 2.1875rem;
-    gap: 31.25rem;
+    gap: 25rem;
+    
 }
 
 .img-6 {
@@ -315,6 +317,28 @@ p{
         justify-content: space-between;
         object-fit: cover;
     }
+
+    .peinados{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: .625rem .625rem;
+        padding: 1.25rem;
+    }
+
+    .icons img{
+
+    }
+
+    .peinados p{
+        text-align: justify;
+        font-size: 24px;
+        justify-content: end;
+    }
+
+    .videos{
+        gap: 18.75rem;
+    }
+
 }
 
 
@@ -442,12 +466,11 @@ p{
 
     .peinados-damas{
         display: flex;
-        flex-direction: column;
     }
 
     .damas{
         width: 100%;
-
+        flex-direction: column-reverse;        
     }
     .damas img{
         width: 80%;
@@ -470,6 +493,41 @@ p{
         height: 31.25rem;
     }
 
+    .peinados{
+        flex-direction: column;
+    }
+
+    .img-7{
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .icons img{
+        width: 80%;
+    }
+
+    .icons button{
+        font-size: 11px;
+    }
+
+    video{
+        width: 50%;
+        margin: 50px  7.8125rem;
+        object-fit: contain;
+    }
+
+    .videos{
+        flex-direction: column;
+        object-fit: contain;
+        gap: .625rem;
+    }
+
+    .videos .icons{
+        width: 50%;
+        margin: .625rem 9.375rem;
+    }
+
+    
     
 
 }
